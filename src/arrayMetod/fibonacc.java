@@ -9,11 +9,11 @@ public class fibonacc {
           /*
         Soru 5- Kullanicidan pozitif bir tamsayi alip,
         o tamsayidan kucuk Fibonacci sayilarini
-        bir liste olarak bize donduren bir method olusturun.
+        bir liste olarak bize donduren bir method olusturunuz.
          */
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Lutfen bir tamsayi giriniz");
+        System.out.println("Lutfen bir tamsayi giriniz  ");
         int sayi = scan.nextInt();
 
         List<Integer> fibonacci = fibonacciListesi(sayi);
