@@ -8,7 +8,7 @@ public class İslemler {
     //ogrenci numara=100;
 
     void menu(List<ogrenci> ogrListe) {
-        System.out.println("============= İŞLEMLER =============\n" +
+        System.out.println("============= İŞLEMLER ==============\n" +
                 "  1-EKLEME\n" +
                 "  2-ARAMA\n" +
                 "  3-LİSTELEME\n" +
