@@ -42,6 +42,9 @@ public class NestedMap {
         System.out.println(okulMap.get(103).get("sube"));
         System.out.println(okulMap.get(102).get("sube").equalsIgnoreCase(okulMap.get(101).get("sube")));//False
 
+        ogrenci1Map.put("isim","Ebru");
+        System.out.println(okulMap.put(101, ogrenci1Map));//Ebru
+        System.out.println(okulMap.get(101).get("isim"));//Ebru
 
 
     }

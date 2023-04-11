@@ -44,8 +44,13 @@ public class RequestBody {
 
         System.out.println(regBody.get("lastname"));//bulut
         System.out.println(regBody.get("totalprice"));//500
-        System.out.println(((Map) regBody.get("bookindates")).get("checkout"));
+        System.out.println(((Map) regBody.get("bookingdate")).get("checkout"));
         System.out.println(((Map)regBody.get("bookingdate")).get("checkin"));
+
+        //ismi selçuk yap
+        regBody.put("firstname", "zeliha");
+        System.out.println(regBody.get("firstname"));
+
 
 
 
