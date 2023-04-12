@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class C02_DataCasting {
     public static void main(String[] args) {
+
         //kullanıcıdan bir sayı alın ve
         // kullanıcı ne girerse girsin -128 / 127 arasında yazdırsın.
 
