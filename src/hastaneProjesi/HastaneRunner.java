@@ -6,7 +6,7 @@ public class HastaneRunner {
         public static void main(String[] args) {
                 String hastaDurumu;
                 String unvan=doktorunvan("aktüelDurum");
-                System.out.println("adınız ve soyadınız? ");
+               // System.out.println("adınız ve soyadınız? ");
 
         }
         public static String doktorunvan (String aktuelDurum){

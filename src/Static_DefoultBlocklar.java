@@ -1,8 +1,11 @@
+import studymyself.studyMyself.C01_RakamlarToplamınestedWhile;
 import studymyself.studyMyself.C02_DataCasting;
+
+import java.util.Arrays;
 
 public class Static_DefoultBlocklar {
     public static void main(String[] args) {
-        Static_DefoultBlocklar obj1=new Static_DefoultBlocklar();
+      //  C01_RakamlarToplamınestedWhile obj1=new C01_RakamlarToplamınestedWhile();
         System.out.println("main metod çalıştı");
 
     }
