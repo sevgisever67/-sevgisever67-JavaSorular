@@ -10,8 +10,9 @@ public class HastaneRunner {
 
         }
         public static String doktorunvan (String aktuelDurum){
-                if (aktuelDurum.equalsIgnoreCase("septom1")){
-                   return "Bölüm1";
+
+                if (aktuelDurum.equalsIgnoreCase("Alerji")){
+                   return "Alergyst";
                 }
                 if (aktuelDurum.equalsIgnoreCase("septom2")){
                         return "Bölüm2";
@@ -34,6 +35,11 @@ public class HastaneRunner {
         }
         public static  Doktor doktorBul(String unvan){
                 Doktor doktor=new Doktor();
+
+                for (String[] eachUnvan:
+                     ) {
+
+                }
 
 
                 return doktor;

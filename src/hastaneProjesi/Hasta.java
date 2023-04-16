@@ -2,40 +2,39 @@ package hastaneProjesi;
 
 public class Hasta {
     private String isim;
+    private String soyIsim;
+    private int hastaID;
+    private Durum hastaDurumu;
 
-    public void setIsim(String isim) {
-        this.isim = isim;
+    public Hasta(String hastaİsimleri, String hastaSoyİsimleri, int hastaİd, Durum hastaDurumu {
+    this.isim=hastaİsimleri;
+    this.soyIsim=hastaSoyİsimleri;
+    this.hastaID=hastaİd;
+    this.hastaDurumu=hastaDurumu;
+
     }
-
-    public void setSoyİsim(boolean soyİsim) {
-        this.soyİsim = soyİsim;
-    }
-
-    public void setHastaID(boolean hastaID) {
-        this.hastaID = hastaID;
-    }
-
-    public void setHasataDurumu(boolean hasataDurumu) {
-        this.hasataDurumu = hasataDurumu;
-    }
-
-    private boolean soyİsim;
-    private boolean hastaID;
-    private  boolean hasataDurumu;
 
     public String getIsim() {
         return isim;
     }
 
-    public boolean isSoyİsim() {
-        return soyİsim;
+    public void setIsim(String isim) {
+        this.isim = isim;
     }
 
-    public boolean isHastaID() {
+    public String getSoyIsim() {
+        return soyIsim;
+    }
+
+    public void setSoyIsim(String soyIsim) {
+        this.soyIsim = soyIsim;
+    }
+
+    public int getHastaID() {
         return hastaID;
     }
 
-    public boolean isHasataDurumu() {
-        return hasataDurumu;
+    public void setHastaID(int hastaID) {
+        this.hastaID = hastaID;
     }
 }

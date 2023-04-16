@@ -8,5 +8,7 @@ public class HarfYazdır {
             System.out.print(harf+" ");
             harf++;
         }while (harf<='t');
+        new HarfYazdır();
+
     }
 }

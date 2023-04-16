@@ -1,22 +1,27 @@
 package hastaneProjesi;
 
-public class Durum {
-    private String aktalDurum;
+public class Durum  {
+    private String aktuelDurum;
     private  boolean aciliyet;
+  public Durum(String aktüelDurum, boolean aciliyet){
+      this.aktuelDurum=aktüelDurum;
+      this.aciliyet=aciliyet;
 
-    public void setAktalDurum(String aktalDurum) {
-        this.aktalDurum = aktalDurum;
+  }
+
+    public String getAktuelDurum() {
+        return aktuelDurum;
     }
 
-    public void setAciliyet(boolean aciliyet) {
-        this.aciliyet = aciliyet;
-    }
-
-    public String getAktalDurum() {
-        return aktalDurum;
+    public void setAktuelDurum(String aktuelDurum) {
+        this.aktuelDurum = aktuelDurum;
     }
 
     public boolean isAciliyet() {
         return aciliyet;
+    }
+
+    public void setAciliyet(boolean aciliyet) {
+        this.aciliyet = aciliyet;
     }
 }
